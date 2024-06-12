@@ -7,6 +7,7 @@
 /* Multi-line comment
 See! this line is also commented out! */
 
+
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
   main.innerHTML = markup(backpack);
