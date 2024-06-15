@@ -26,11 +26,12 @@ const content = `
           <li>Age: ${everydayPack.backpackAge()}</li>
           <li>Number of pockets: ${everydayPack.pocketNum}</li>
           <li>Left strap length: ${everydayPack.strapLength.left}</li>
-          <li>Right strap length:${everydayPack.strapLength.right}</li>
+          <li>Right strap length: ${everydayPack.strapLength.right}</li>
           <li>Lid status: ${everydayPack.lidOpen}</li>
         </ul>
       </article>
-    </main>`;
+    </main>
+`;
 
 document.body.innerHTML = content;
 
